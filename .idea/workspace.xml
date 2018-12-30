@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73fbd53f-e393-425f-878f-acd38afccf41" name="Default Changelist" comment="" />
+    <list default="true" id="73fbd53f-e393-425f-878f-acd38afccf41" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Q-Activation Function-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Q-Activation Function-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Q-Activation Function.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Q-Activation Function.ipynb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/project_ganymede$using_qiskit_terra_level_0.coverage" NAME="using_qiskit_terra_level_0 Coverage Results" MODIFIED="1546045221648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project_ganymede$basic_qubit_operation_test.coverage" NAME="basic-qubit-operation-test Coverage Results" MODIFIED="1545935586159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/project_ganymede$activation_func.coverage" NAME="activation_func Coverage Results" MODIFIED="1546068533856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_ganymede$activation_func.coverage" NAME="activation_func Coverage Results" MODIFIED="1546176442876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project_ganymede$real_device_test.coverage" NAME="real-device-test Coverage Results" MODIFIED="1545999383435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project_ganymede$project_ganymede.coverage" NAME="project-ganymede Coverage Results" MODIFIED="1546068903895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
@@ -114,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jupyter Notebook.project-ganymede">
+  <component name="RunManager" selected="Python.activation_func">
     <configuration name="project-ganymede" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="project-ganymede" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,12 +244,12 @@
       <option name="presentableId" value="Default" />
       <updated>1545914630202</updated>
       <workItem from="1545914631393" duration="4289000" />
-      <workItem from="1545998297751" duration="15020000" />
+      <workItem from="1545998297751" duration="16233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19309000" />
+    <option name="totallyTimeSpent" value="20522000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -259,24 +262,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18676628" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18676628" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" weight="0.19870411" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893278" weight="0.19805194" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010672" side_tool="true" visible="true" weight="0.3300866" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49839914" weight="0.32937366" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5026681" side_tool="true" visible="true" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49733192" visible="true" weight="0.32900432" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32937366" />
-      <window_info anchor="bottom" x="0" y="322" width="1514" height="758" id="Python Console" order="12" sideWeight="0.49893278" visible="true" weight="0.3300866" />
+      <window_info anchor="bottom" x="0" y="322" width="1514" height="758" id="Python Console" order="12" sideWeight="0.49893278" weight="0.3300866" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
