@@ -1,5 +1,6 @@
 from qiskit import QuantumRegister, ClassicalRegister, QuantumCircuit
 from qiskit import compile, Aer
+import numpy as np
 import math
 
 def xavier(prob):

@@ -2,7 +2,6 @@ import numpy as np
 from tensorflow.examples.tutorials.mnist import input_data
 from momment import xavier
 
-
 class NN:
     def __init__(self):
         self.W1 = np.random.uniform(low=-0.01, high=0.01, size=(784, 100))
@@ -10,12 +9,26 @@ class NN:
         self.learningRate = 0.001
 
     def sigmoid(self, x):
+        # print("SIGMOID INPUT: %s\nSIGMOID TYPE: %s" % (x, type(x)))
         # return 1.0 / (1.0 + np.exp(-x))
-        return xavier(x)
+        output = []
+        for arr in x:
+            outputX = []
+            for signal in arr:
+                outputX.append(xavier(signal))
+            output.append(outputX)
+        return np.array(output)
 
     def dsigmoid(self, x):
-        return x * (1. - x)
-
+        # print("DE-SIGMOID INPUT: %s\nDE-SIGMOID TYPE: %s" % (x, type(x)))
+        # return x * (1. - x)
+        output = []
+        for arr in x:
+            outputX = []
+            for signal in arr:
+                outputX.append(xavier(signal))
+            output.append(outputX)
+        return np.array(output)
 
     def softmax(self, x):
         if x.ndim == 1:
@@ -71,5 +84,3 @@ if __name__ == '__main__':
     correct_prediction = np.equal(np.argmax(y2, 1), np.argmax(mnist.test.labels, 1))
     accuracy = np.mean(correct_prediction)
     print(accuracy)
-
-
