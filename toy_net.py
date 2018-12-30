@@ -1,5 +1,4 @@
 import numpy as np # 1번째 줄
-from momment
 
 #sigmoid function
 
