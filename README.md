@@ -32,4 +32,4 @@ Qiskit은 3가지 패키지를 내장하고 있는데:
 
 이런 표현법을 통틀어 「 블로흐 구면<sup>Bloch Sphere</sup>」 이라 한다.
 
-![By Smite-Meister - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=5829358](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bloch_sphere.svg/1024px-Bloch_sphere.svg.png){ width=50% }
+![By Smite-Meister - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=5829358](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bloch_sphere.svg/136px-Bloch_sphere.svg.png)
