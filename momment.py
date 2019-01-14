@@ -1,5 +1,9 @@
-from qiskit import QuantumRegister, ClassicalRegister, QuantumCircuit
+from qiskit import QuantumCircuit, ClassicalRegister, QuantumRegister, QiskitError
 from qiskit import compile, Aer
+from qiskit import execute, IBMQ, BasicAer
+from qiskit.providers.ibmq import least_busy
+from qiskit.tools.monitor import job_monitor
+
 import numpy as np
 import math
 
