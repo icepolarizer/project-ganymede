@@ -31,3 +31,5 @@ Qiskit은 3가지 패키지를 내장하고 있는데:
 그런데, 이 벡터가 수직이 아닌 상태로 다른 어딘가를 향하면 이것이 바로 Superpsition, 즉 중첩 상태가 된다. 엄밀히 말하면 정해진 위치가 있지만, 일단은 그렇게 생각하자. 이 순간, 양자의 행방은~~진실은 저 너머에~~ 알 길이 없게 된다. 정말 모른다. 애초에 결정되기 전까지는 어느 값도 아니고, 어느 값도 아니기에 그 확률을 특정 방향으로 조정하는 것도 무리다.
 
 이런 표현법을 통틀어 「 블로흐 구면<sup>Bloch Sphere</sup>」 이라 한다.
+
+![By Smite-Meister - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=5829358](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bloch_sphere.svg/1024px-Bloch_sphere.svg.png){ width=50% }
