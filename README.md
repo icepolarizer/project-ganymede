@@ -87,7 +87,6 @@ As you may have guessed from the explanation above, the gate method literally pa
 In this way, the qubits of other nodes are inverted depending on whether one qubit is |1 ⟩. For example, when the entangled qubits A and B are both in |0⟩. As A passes through the X gate (NOT gate) and becomes |1⟩, then if these two qubits pass through the Entanglement gate, then B also becomes |1⟩. On the other hand, when the X gate is removed from this circuit, the state of B is |0⟩. And after all these circuits have passed, observations are needed. Without observations, there is no result. However, the moment of observation should be thought carefully when designing the circuit. The state of a qubit cannot be changed after observation. The state of the moment when observed by the observer converges completely into one, and that is the end. It does not change anymore. Therefore, observations should be done at the end of every computation. If you use this bit as a variable, it is impossible to trace the variable during execution like a debugger.
 
 
-
 ## 연구 진행 현황
 
 현재 연구되고 있는 주제들은 다음과 같다. 이들 중에는 실현 가능성이 있는 것도 있고, 그저 문득 떠오른 생각에 의한 실험도 있다.
